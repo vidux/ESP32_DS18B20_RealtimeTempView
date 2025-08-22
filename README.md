@@ -62,19 +62,6 @@ You can connect multiple DS18B20 sensors in parallel on the same OneWire bus:
    - "ESPAsyncWebServer"
    - "AsyncTCP"
 
-**Using PlatformIO:**
-Add to `platformio.ini`:
-```ini
-[env:esp32dev]
-platform = espressif32
-board = esp32dev
-framework = arduino
-lib_deps = 
-    paulstoffregen/OneWire
-    milesburton/DallasTemperature
-    https://github.com/me-no-dev/ESPAsyncWebServer.git
-    https://github.com/me-no-dev/AsyncTCP.git
-```
 
 ### 2. Configure WiFi Credentials
 
